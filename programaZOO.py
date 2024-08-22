@@ -8,3 +8,10 @@ class Animal:
         self.habitat = habitat
         self.vizinhos = []
         self.horas_alimentacao = horas_alimentacao
+
+    def alimentar(self):
+        return f"{self.nome}  foi alimentado às {self.horas_alimentacao}."
+    
+    def __str__(self):
+        return f"{self.nome}, {self.idade} anos, {self.horas_alimentacao}, Habitat:{self.habitat}"
+#fcgfcgfcgfcgfc
